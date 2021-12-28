@@ -57,10 +57,11 @@ button.notify {
   color: grey;
 }
 
+.attribution { font-size: 11px; }
+
 .attribution a {
   font-family: sans-serif;
   color: rgb(93, 93, 230);
-  /* font-weight: 600; */
 }
 
 .attribution a:hover { text-decoration: underline; }
@@ -155,11 +156,7 @@ footer {
   margin-bottom: 35px;
 }
 
-a { 
-  display: block;
-}
-
-a i {
+i {
   color: var(--primary-color);
   border: 1px solid var(--gray);
   border-radius: 50px;
@@ -167,15 +164,12 @@ a i {
   padding: 9px 11px;
 }
 
-a i:hover {
+i:hover {
   color: white;
   background-color: var(--primary-color);
   cursor: pointer;
 }
 
-.asd {
-  width: 100px;
-}
 
 
 
