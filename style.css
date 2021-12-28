@@ -12,8 +12,6 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-  /* margin: 0;
-  padding: 0; */
 }
 
 body {
@@ -35,11 +33,6 @@ h1 span {
   font-weight: 300;
 }
 
-.subscribe {
-  /* font-weight: 500; */
-}
-
-/* input { color: var(--gray); } */
 ::placeholder { color: rgb(175, 175, 175) }
 
 .email-wrapper span {
@@ -102,7 +95,6 @@ form {
 
 .email-wrapper span {
   display: none;
-  /* display: inline-block; */
   margin: 5px 0 25px 0;
 }
 
@@ -111,10 +103,7 @@ input[type=text] {
   border-radius: 100px;
 
   width: 90%;
-  /* width: 300px; */
   padding: 15px 30px;
-
-  /* margin: 0 auto; */
 }
 
 
@@ -125,7 +114,6 @@ button.notify {
   box-shadow: 0 10px 20px 0 rgb(192, 189, 189);
 
   width: 90%;
-  /* width: 300px; */
   padding: 15px;
 }
 
@@ -189,17 +177,14 @@ i:hover {
     margin: 50px auto;
   }
 
-  /* .email-container,  */
   form {
     display: flex;
     flex-direction: row;
     column-gap: 15px;
   }
 
-  /* input[type=text] { */
   .email-wrapper {
     flex: 3 1 0;
-    /* flex-grow 2; */
   }
 
   .email-wrapper span {    
@@ -208,7 +193,6 @@ i:hover {
   }
 
   button.notify {
-    /* width: 100%; */
     flex: 1 1 0;
   }
 }
